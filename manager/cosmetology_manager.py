@@ -53,5 +53,6 @@ if __name__ == "__main__":
 
     doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE, verbose=True,
                     extraglobs={'cosmetology_manager': CosmetologyBuildManager(
-                        cosmetology_builds_list=[mask(1, "Ukraine", 123, 340, 423), scrub(3, "France", 345, 456, 123),
+                        cosmetology_builds_list=[mask(1, "Ukraine", 123, 340, 423),
+                                                 scrub(3, "France", 345, 456, 123),
                                                  powder(2, "Spain", 56, 546, 243)])})
